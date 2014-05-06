@@ -1,11 +1,11 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        warmUpAuction.py
 # Purpose:
 #
-# Author:      Nadja
+# Author:      Nadja Jury
 #
 # Created:     24/04/2014
-# Copyright:   (c) Nadja 2014
+# Copyright:   (c) juryn 2014
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 #!/usr/bin/env python
@@ -45,11 +45,12 @@ bid = 0
 names = []
 bids = []
 
-#entering the reserve price
+#entering the reserve price and telling the user the auction has begun, and how to end it
 reservePrice = get_float("What is the reserve price?")
 print ("The auction has now begun")
 print ("If you want to end the auction, please enter 'finish' when asked for your name")
 
+#starting the auction itself
 while name!= "finish": #if the user enters F or f, the program will stop
     print ("The highest bid is currently $" + str(highestBid))
     #ask for the name and bid
